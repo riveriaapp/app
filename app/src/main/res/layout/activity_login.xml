@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ankit.riveria.LoginActivity">
+<include layout="@layout/app_bar_layout" android:id="@+id/login_toolbar"/>
+    <EditText
+        android:id="@+id/enter_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="136dp"
+        android:layout_above="@+id/enter_pwd"
+        android:layout_alignStart="@+id/enter_pwd"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/enter_pwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="pwd"
+        android:inputType="numberPassword"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="238dp"
+        android:layout_above="@+id/login_try"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="90dp" />
+
+    <Button
+        android:id="@+id/login_try"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="333dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="138dp"
+        android:layout_marginBottom="233dp" />
+</RelativeLayout>

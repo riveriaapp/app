@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "34845817573",
+    "firebase_url": "https://riveria-76b51.firebaseio.com",
+    "project_id": "riveria-76b51",
+    "storage_bucket": "riveria-76b51.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34845817573:android:5351007b23a0627f",
+        "android_client_info": {
+          "package_name": "com.example.ankit.riveria"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "34845817573-rt0oiir94i3iuns80icujois9dec7pi3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ankit.riveria",
+            "certificate_hash": "fe3ff447aebd5b11a2f77db60fff111315dcc513"
+          }
+        },
+        {
+          "client_id": "34845817573-ejf4um4509oljf9mgj1badh97u9u41ru.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWvRyxBKxVHOSYp2UKrV0PrNNvcT1xWYw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "34845817573-ejf4um4509oljf9mgj1badh97u9u41ru.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
